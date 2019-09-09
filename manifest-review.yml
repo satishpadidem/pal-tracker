@@ -2,7 +2,7 @@
 applications:
 - name: pal-tracker-review
   path: src/PalTracker/bin/Release/netcoreapp2.1/publish/
-   routes:
+  routes:
   - route: http://pal-tracker-sam-smith-review.cfapps.io
   env:
     WELCOME_MESSAGE: Hello from Cloud Foundry Review
