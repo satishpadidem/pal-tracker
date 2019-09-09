@@ -5,4 +5,4 @@ applications:
   routes:
   - route: http://pal-tracker-sam-smith-prod.cfapps.io
   env:
-    WELCOME_MESSAGE: Hello from Cloud Foundry Prod
+    WELCOME_MESSAGE: Hello from the production environment

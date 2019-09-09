@@ -5,4 +5,4 @@ applications:
   routes:
   - route: http://pal-tracker-sam-smith-review.cfapps.io
   env:
-    WELCOME_MESSAGE: Hello from Cloud Foundry Review
+    WELCOME_MESSAGE: Hello from the review environment
