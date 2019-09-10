@@ -32,6 +32,7 @@ namespace PalTracker
             Configuration.GetValue<string>("MEMORY_LIMIT", "MemoryLimit not configured."),
             Configuration.GetValue<string>("CF_INSTANCE_INDEX", "CFInstanceIndex not configured."),
             Configuration.GetValue<string>("CF_INSTANCE_ADDR", "CFInstanceAddr not configured.")));
+            services.AddSingleton<ITimeEntryRepository, InMemoryTimeEntryRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
