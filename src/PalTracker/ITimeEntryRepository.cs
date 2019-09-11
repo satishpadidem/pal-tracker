@@ -7,8 +7,8 @@ namespace PalTracker
         TimeEntry Create(TimeEntry timeEntry);
         TimeEntry Find(long index);
         bool Contains(long index);
-        List<TimeEntry> List();
+        IEnumerable<TimeEntry> List();
         TimeEntry Update(long index, TimeEntry timeEntry);
-        bool Delete(long index);
+        void Delete(long index);
     }
 }

@@ -153,7 +153,7 @@ namespace PalTrackerTests
             Assert.Equal(444L, foundInDb[0]["project_id"]);
             Assert.Equal(555L, foundInDb[0]["user_id"]);
             Assert.Equal(DateTime.Parse("2012-01-02"), foundInDb[0]["date"]);
-            Assert.Equal(13, foundInDb[0]["hours"]);
+            Assert.Equal(13L, foundInDb[0]["hours"]);
         }
 
         private static void CreateInDb(TimeEntry timeEntry)

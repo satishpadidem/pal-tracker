@@ -28,9 +28,9 @@ namespace PalTracker
             return timeEntry;
         }
 
-        public bool Delete(long index)
+        public void Delete(long index)
         {
-            return timeEntries.Remove(index);
+             timeEntries.Remove(index);
         }
 
         public TimeEntry Find(long index)
@@ -38,7 +38,7 @@ namespace PalTracker
             return timeEntries[index];
         }
 
-        public List<TimeEntry> List()
+        public IEnumerable<TimeEntry> List()
         {
             return timeEntries.Values.ToList();
         }
