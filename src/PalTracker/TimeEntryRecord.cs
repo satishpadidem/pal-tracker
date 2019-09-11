@@ -15,7 +15,7 @@ namespace PalTracker
         [Column("user_id")]
         public long userId {get; set;}
         [Column("hours")]
-        public long hours { get; set; }
+        public int hours { get; set; }
 
         public TimeEntryRecord(){
             
